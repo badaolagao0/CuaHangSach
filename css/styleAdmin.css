@@ -1,0 +1,47 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header */
+
+.header,
+.footer {
+    background-color: rgb(149, 232, 150);
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* sửa tìm kiếm */
+
+.sua-tim-kiem {
+    position: relative;
+}
+
+.sua-tim-kiem .sua-tim {
+    position: absolute;
+    right: 0;
+}
+
+
+/* responsive header */
+
+@media (max-width: 767.98px) {
+    /* CSS dành cho màn hình nhỏ hơn 768px */
+    .header .re-767 {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* CSS dành cho màn hình nhỏ hơn 576px */
+    .header .text-header {
+        display: none;
+    }
+}
+
+
+/* footer */

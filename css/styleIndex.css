@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}  
+
+
+/* header */
+
+.header {
+    background-color: white;
+    color: black;
+}
+
+.bg-color-green {
+    background-color: rgb(0, 138, 28);
+}
+
+.footer {
+    background-color: rgb(215, 255, 223);
+    ;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* sửa tìm kiếm */
+
+.sua-tim-kiem {
+    position: relative;
+}
+
+.sua-tim-kiem .sua-tim {
+    position: absolute;
+    right: 0;
+}
+
+
+/* responsive header */
+
+@media (max-width: 767.98px) {
+    /* CSS dành cho màn hình nhỏ hơn 768px */
+    .header .re-767 {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* CSS dành cho màn hình nhỏ hơn 576px */
+    .header .text-header {
+        display: none;
+    }
+}
+
+
+/* css phần nội dung trong card cho đều */
+
+.noidung-card {
+    height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+/* footer */

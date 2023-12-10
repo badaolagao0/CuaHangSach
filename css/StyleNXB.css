@@ -1,0 +1,16 @@
+* {
+	/* margin: 0; */
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+legend h2 {
+    color: #707793;
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
